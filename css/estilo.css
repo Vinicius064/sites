@@ -6,45 +6,135 @@
 *********************************** RESPONSIVO ***********************************
 */
 @media (max-width: 575.98px) {
+  body{
+    /*background: gray;*/
+  }
+  header#topo{
+    padding-top: 20px;
+    height: 190px;
+    background: url(../img/efeito-topo.png) no-repeat left bottom;
+  }
   nav{
-    margin-top: 0px;
     margin: 0 auto;
     clear: both;
     width: auto;
     float: right;
     margin-right: 5px;
   }
+  nav ul li{
+    padding: 10px 10px;
+  }
   nav a:link, nav a:visited, nav a:active{
-  padding: 10px 10px;
   }
   header #logo{
     font-size: 45px;
     text-align: right;
     margin-right: 5px;
   }
+  #conteudo{
+    margin: 0 auto;
+    margin-top: 90px;
+  }
+  #conteudo{
+    width: 97%;
+  }
+  #conteudo h1{
+    color: black;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+  article#principal img{
+    /*height: 400px;*/
+    width: 100%;
+  }
+  aside h2{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+  }
+  aside{
+    width: 23%;
+    float: left;
+    background: white;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.4);
+    padding: 5px;
+  }
 }
 @media (min-width: 576px) {
+  body{
+    /*background: pink;*/
+  }
+  header#topo{
+    padding-top: 60px;
+    height: 225px;
+    background: url(../img/efeito-topo.png);
+  }
   nav{
-    margin-top: -60px;
+    margin-top: 10px;
     float: right;
-    margin-right: 20px;
+    margin-right: 10px;
+  }
+  nav ul li{
+    padding: 10px 30px;
   }
   nav a:link, nav a:visited, nav a:active{
-    padding: 10px 40px;
+    
+  }
+  header #logo{
+    font-size: 60px;
+    text-align: right;
+    margin-right: 20px;
+    margin: 0 auto;
+  }
+  #conteudo{
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+  #conteudo{
+    width: 90%;
+  }
+  #conteudo h1{
+    color: gray;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+}
+@media (min-width: 768px) {
+  body{
+    /*background: orange;*/
   }
   header #logo{
     font-size: 70px;
     text-align: center;
   }
 }
-@media (min-width: 768px) {
-  
-}
 @media (min-width: 992px) {
-        
+  body{
+   /*background: green;*/
+  }
+  nav{
+    margin-top: -60px;
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    padding: 10px 40px;
+  }
+  header #logo{
+    font-size: 70px;
+    text-align: center;
+  }
+  #conteudo{
+    margin: 0 auto;
+    margin-top: 30px;
+  }
 }
 @media (min-width: 1200px) {
-
+  body{
+    /*background: blue;*/
+  }
 }
 /*
 *********************************** TOPO ***********************************
@@ -52,11 +142,6 @@
 @font-face{
   font-family: "FA";
   src: url("../font/Filmotype-Austin.woff");
-}
-header{
-  padding-top: 60px;
-  height: 225px;
-  background: url(../img/efeito-topo.png);
 }
 header #logo{
   font-family: "FA";
@@ -79,35 +164,36 @@ header #logo a:link, header #logo a:hover, header #logo a:visited, header #logo 
 *********************************** NAVEGAÇÃO ***********************************
 */
 nav{
-  padding: 9px 0;
+  /*padding: 9px 0;*/
 }
 nav ul li{
   display: inline-block;
   float: left;
+  background: black url(../img/divisor.png) no-repeat right;
 }
 nav a:link, nav a:visited, nav a:active{
   text-transform: uppercase;
   font-weight: bolder;
   text-decoration: none;
   color: white;
-  background: black url(../img/divisor.png) no-repeat right;
 }
 nav ul li:hover{
   text-decoration: underline;
 }
-nav ul li a.ultimo{
+nav ul li.ultimo{
   background: black;
 }
 /*
 *********************************** BOTÃO FLUTUANTE ***********************************
 */
 #float-whats{
+  z-index: 10;
   height: 50px;
   width: 50px;
   background: black;
   position: fixed;
   right: 10px;
-  bottom: 10px;
+  bottom: 100px;
   box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.7);
 }
 #float-whats img{
@@ -118,4 +204,35 @@ nav ul li a.ultimo{
 */
 body{
     background: #FBFBEF;
-  }
+}
+#conteudo{
+  clear: both;
+}
+#conteudo h1{
+  color: white;
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+article#principal{
+  position: relative;
+  width: 75%;
+  float: right;
+  background: dimgray;
+}
+/*
+*********************************** Aside ***********************************
+*/
+aside{
+  float: left;
+  background: white;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.4);
+  padding: 5px;
+}
+/*
+*********************************** Rodapé ***********************************
+*/
+footer#rodape{
+  margin-top: 200px;
+}
