@@ -10,13 +10,15 @@
     margin-top: 0px;
     margin: 0 auto;
     clear: both;
-    width: 309px;
+    width: auto;
+    float: right;
+    margin-right: 5px;
   }
   nav a:link, nav a:visited, nav a:active{
   padding: 10px 10px;
   }
   header #logo{
-    font-size: 50px;
+    font-size: 45px;
     text-align: right;
     margin-right: 5px;
   }
