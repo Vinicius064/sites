@@ -1,0 +1,118 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/*
+*********************************** RESPONSIVO ***********************************
+*/
+@media (max-width: 575.98px) {
+  nav{
+  margin-top: 0px;
+  margin: 0 auto;
+  clear: both;
+  width: 389px;
+  }
+  nav a:link, nav a:visited, nav a:active{
+  padding: 10px 20px;
+  }
+  header #logo{
+  font-size: 50px;
+  text-align: right;
+  margin-right: 10px;
+  }
+}
+@media (min-width: 576px) {
+  nav{
+  margin-top: -60px;
+  float: right;
+  }
+  nav a:link, nav a:visited, nav a:active{
+  padding: 10px 40px;
+  }
+  header #logo{
+  font-size: 70px;
+  text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  
+}
+@media (min-width: 992px) {
+        
+}
+@media (min-width: 1200px) {
+
+}
+/*
+*********************************** TOPO ***********************************
+*/
+@font-face{
+  font-family: "FA";
+  src: url("../font/Filmotype-Austin.woff");
+}
+header{
+  padding-top: 60px;
+  height: 225px;
+  background: url(../img/efeito-topo.png);
+}
+header #logo{
+  font-family: "FA";
+}
+header #logo a:link, header #logo a:hover, header #logo a:visited, header #logo a:active{
+  text-decoration: none;
+  color: #FBFBEF;
+}
+#pintor{
+  margin-top: -159px;
+  margin-left: -1px;
+  width: 100px;
+  height: 195px;
+  float: left;
+}
+#pintor img{
+  width: 100px;
+}
+/*
+*********************************** NAVEGAÇÃO ***********************************
+*/
+nav{
+  padding: 9px 0;
+}
+nav ul li{
+  display: inline-block;
+  float: left;
+}
+nav a:link, nav a:visited, nav a:active{
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+  background: black url(../img/divisor.png) no-repeat right;
+}
+nav ul li:hover{
+  text-decoration: underline;
+}
+nav ul li a.ultimo{
+  background: black;
+}
+/*
+*********************************** BOTÃO FLUTUANTE ***********************************
+*/
+#float-whats{
+  height: 50px;
+  width: 50px;
+  background: black;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.7);
+}
+#float-whats img{
+  height: 50px;
+}
+/*
+*********************************** CORPO ***********************************
+*/
+body{
+    background: #FBFBEF;
+  }
