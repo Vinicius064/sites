@@ -7,32 +7,32 @@
 */
 @media (max-width: 575.98px) {
   nav{
-  margin-top: 0px;
-  margin: 0 auto;
-  clear: both;
-  width: 309px;
+    margin-top: 0px;
+    margin: 0 auto;
+    clear: both;
+    width: 309px;
   }
   nav a:link, nav a:visited, nav a:active{
   padding: 10px 10px;
   }
   header #logo{
-  font-size: 50px;
-  text-align: right;
-  margin-right: 10px;
+    font-size: 50px;
+    text-align: right;
+    margin-right: 5px;
   }
 }
 @media (min-width: 576px) {
   nav{
-  margin-top: -60px;
-  float: right;
-  margin-right: 20px;
+    margin-top: -60px;
+    float: right;
+    margin-right: 20px;
   }
   nav a:link, nav a:visited, nav a:active{
-  padding: 10px 40px;
+    padding: 10px 40px;
   }
   header #logo{
-  font-size: 70px;
-  text-align: center;
+    font-size: 70px;
+    text-align: center;
   }
 }
 @media (min-width: 768px) {
