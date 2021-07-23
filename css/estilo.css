@@ -36,22 +36,20 @@
     margin-top: 140px;
   }
   #conteudo{
-    width: 97%;
+    width: 95%;
   }
-  /*article#principal{
-    /*background: #FACC2E;
+  .img{
     background: url(../img/lata.png) no-repeat top center;
+    z-index: -1;
     width: 100%;
-    height: 710px;
-    padding: 0 40px;
-    padding-top: 100px;
-  }*/
-  article#principal img{
-    background: url(../img/lata.png) no-repeat top center;
+    height: 463px;
+    margin: 0 auto;
     box-sizing: border-box;
-    padding: 80px 30px 60px 30px;
-    width: 75%;
-    margin: 0 12.5%;
+    padding: 24% 23% 20% 23%;
+  }
+  article#principal img{
+    width: 100%;
+    height: 100%;
   }
   #conteudo article#principal h1{
     font-size: 27px;
