@@ -17,9 +17,7 @@
   nav{
     margin: 0 auto;
     clear: both;
-    width: auto;
-    float: right;
-    margin-right: 5px;
+    width: 309px;
   }
   nav ul li{
     padding: 10px 10px;
@@ -45,8 +43,12 @@
     bottom: 170px;
   }
   article#principal{
-    background: #FACC2E;
+    /*background: #FACC2E;*/
+    background: url(../img/lata.png) no-repeat top center;
     width: 100%;
+    height: 710px;
+    padding: 0 40px;
+    padding-top: 100px;
   }
   article#principal img{
     width: 80%;
