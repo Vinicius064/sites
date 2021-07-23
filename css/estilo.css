@@ -49,9 +49,9 @@
   article#principal img{
     background: url(../img/lata.png) no-repeat top center;
     box-sizing: border-box;
-    padding: 80px 25px 60px 25px;
-    width: 70%;
-    margin: 0 15%;
+    padding: 80px 30px 60px 30px;
+    width: 75%;
+    margin: 0 12.5%;
   }
   #conteudo article#principal h1{
     font-size: 27px;
