@@ -58,7 +58,7 @@
     font-family: RB;
     text-align: center;
   }
-  aside h2{
+  /*aside h2{
     text-align: center;
     font-size: 14px;
     font-weight: bolder;
@@ -71,7 +71,7 @@
     background: white;
     box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.4);
     padding: 5px;
-  }
+  }*/
 }
 @media (min-width: 576px) {
   body{
@@ -232,9 +232,15 @@ article#principal{
 *********************************** Aside ***********************************
 */
 aside{
-  background: white;
-  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.4);
-  padding: 5px;
+  background: url(../img/fundo-info.png) no-repeat;
+  height: 77px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 40px;
+}
+aside h4{
+  font-size: 16px;
+  color: white;
 }
 /*
 *********************************** Rodapé ***********************************
