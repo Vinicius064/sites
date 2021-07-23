@@ -17,7 +17,9 @@
   nav{
     margin: 0 auto;
     clear: both;
-    width: 309px;
+    width: auto;
+    float: right;
+    margin-right: 5px;
   }
   nav ul li{
     padding: 10px 10px;
@@ -31,28 +33,32 @@
   }
   #conteudo{
     margin: 0 auto;
-    margin-top: 90px;
+    margin-top: 140px;
   }
   #conteudo{
     width: 97%;
   }
-  #conteudo h1{
-    font-size: 25px;
-    color: black;
-    position: absolute;
-    bottom: 170px;
-  }
-  article#principal{
-    /*background: #FACC2E;*/
+  /*article#principal{
+    /*background: #FACC2E;
     background: url(../img/lata.png) no-repeat top center;
     width: 100%;
     height: 710px;
     padding: 0 40px;
     padding-top: 100px;
-  }
+  }*/
   article#principal img{
-    width: 80%;
-    margin: 0 10%;
+    background: url(../img/lata.png) no-repeat top center;
+    box-sizing: border-box;
+    padding: 80px 25px 60px 25px;
+    width: 70%;
+    margin: 0 15%;
+  }
+  #conteudo article#principal h1{
+    font-size: 27px;
+    margin-bottom: 20px;
+    color: #f2d434;
+    font-family: RB;
+    text-align: center;
   }
   aside h2{
     text-align: center;
@@ -102,11 +108,12 @@
   #conteudo{
     width: 90%;
   }
-  #conteudo h1{
-    color: gray;
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
+  #conteudo article#principal h1{
+    font-size: 27px;
+    margin-bottom: 20px;
+    color: #f2d434;
+    font-family: RB;
+    text-align: left;
   }
 }
 @media (min-width: 768px) {
@@ -156,7 +163,7 @@ header #logo{
 }
 header #logo a:link, header #logo a:hover, header #logo a:visited, header #logo a:active{
   text-decoration: none;
-  color: #FBFBEF;
+  color: #f2d434;
 }
 #pintor{
   margin-top: -159px;
@@ -213,15 +220,12 @@ nav ul li.ultimo{
 body{
     background: #FBFBEF;
 }
+@font-face{
+  font-family: "RB";
+  src: url("../font/Rocket-Battle-Demo.woff");
+}
 #conteudo{
   clear: both;
-}
-#conteudo h1{
-  color: white;
-  position: absolute;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
 }
 article#principal{
   position: relative;
