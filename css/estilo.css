@@ -52,10 +52,17 @@
     width: 100%;
     background: url(../img/fundo3.png) repeat left top;
   }
-  #conteudo article#principal h1,
-  #conteudo article#secundario h1{
+  #conteudo article#principal h1{
     font-size: 27px;
     margin-bottom: 20px;
+    color: #f2d434;
+    font-family: RB;
+    text-align: center;
+  }
+  #secundario h1{
+    font-size: 27px;
+    margin-bottom: 20px;
+    margin-top: 110px;
     color: #f2d434;
     font-family: RB;
     text-align: center;
@@ -126,13 +133,19 @@
     width: 100%;
     background: url(../img/fundo3.png) repeat left top;
   }
-  #conteudo article#principal h1,
-  #conteudo article#secundario h1{
+  #conteudo article#principal h1{
     font-size: 27px;
     margin-bottom: 20px;
     color: #f2d434;
     font-family: RB;
     text-align: left;
+  }
+  #secundario h1{
+    font-size: 27px;
+    margin-bottom: 20px;
+    margin-top: 110px;
+    color: #f2d434;
+    font-family: RB;
   }
   #videos{
     width: 100%;
@@ -195,6 +208,13 @@
   }
   #afazeres{
     margin-top: 60px;
+  }
+  #secundario h1{
+    font-size: 27px;
+    margin-bottom: 80px;
+    margin-top: 60px;
+    color: #f2d434;
+    font-family: RB;
   }
 }
 @media (min-width: 992px) {
@@ -316,7 +336,7 @@ aside{
   margin-bottom: 40px;
 }
 aside h4{
-  width: 370px;
+  width: 350px;
   font-size: 16px;
   color: #f2d434;
 }
