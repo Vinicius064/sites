@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 *{
   margin: 0px;
   padding: 0px;
@@ -47,19 +40,17 @@
   }
   article#principal img{
     margin: 35px 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     padding: 10%;
     width: 100%;
-    background: #FBFBEF url(../img/fundo.png) repeat left top;
+    background: url(../img/fundo.png) repeat left top;
   }
   article#secundario img{
     margin: 35px 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     padding: 10%;
     width: 100%;
-    background: #FBFBEF url(../img/fundo3.png) repeat left top;
+    background: url(../img/fundo3.png) repeat left top;
   }
   #conteudo article#principal h1{
     font-size: 27px;
@@ -81,9 +72,8 @@
     margin: 0 auto;
   }
   #videos video{
-    background: #FBFBEF url(../img/fundo2.png) repeat left top;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    background: url(../img/fundo2.png) repeat left top;
+    box-sizing: border-box;
     padding: 10%;
     width: 100%;
     margin: 40px auto;
@@ -95,6 +85,41 @@
   #afazeres ul li{
     font-size: 14px;
   }
+
+
+  #contato h1{
+    color: white;
+    font-family: 'RB';
+    font-size: 16px;
+  }
+  #contato h4{
+    color: white;
+    font-weight: bolder;
+    display: block;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  #contato a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 7px;
+  }
+  #contato a:link,
+  #contato a:visited{
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+  }
+  #contato a:hover{
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+
+
+
 }
 @media (min-width: 576px) {
   body{
@@ -131,16 +156,14 @@
   }
   article#principal img{
     margin: 35px 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     padding: 10%;
     width: 100%;
     background: url(../img/fundo.png) repeat left top;
   }
   article#secundario img{
     margin: 35px 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     padding: 10%;
     width: 100%;
     background: url(../img/fundo3.png) repeat left top;
@@ -164,9 +187,8 @@
     margin: 0 auto;
   }
   #videos video{
-    background: #FBFBEF url(../img/fundo2.png) repeat left top;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    background: url(../img/fundo2.png) repeat left top;
+    box-sizing: border-box;
     padding: 10%;
     width: 100%;
     margin: 40px auto;
@@ -178,6 +200,40 @@
   #afazeres ul li{
     font-size: 16px;
   }
+
+
+
+  #contato h1{
+    color: white;
+    font-family: 'RB';
+    font-size: 16px;
+  }
+  #contato h4{
+    color: white;
+    font-weight: bolder;
+    display: block;
+    margin-top: 30px;
+  }
+  #contato a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 7px;
+  }
+  #contato a:link,
+  #contato a:visited{
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+  }
+  #contato a:hover{
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+
+
 }
 @media (min-width: 768px) {
   body{
@@ -194,8 +250,7 @@
   article#principal img{
     display: inline;
     margin: 5% 2.3%;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     padding: 5%;
     width: 45%;
     background: url(../img/fundo.png) repeat left top;
@@ -203,8 +258,7 @@
   article#secundario img{
     display: inline;
     margin: 5% 2.3%;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     padding: 5%;
     width: 45%;
     background: url(../img/fundo3.png) repeat left top;
@@ -214,9 +268,8 @@
     margin: 0 auto;
   }
   #videos video{
-    background: #FBFBEF url(../img/fundo2.png) repeat left top;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    background: url(../img/fundo2.png) repeat left top;
+    box-sizing: border-box;
     padding: 5%;
     width: 45%;
     margin: 40px 2.3%;
@@ -257,9 +310,9 @@
     margin-top: 10px;
   }
 }
-@media (min-width: 2000px) {
-  /*body{
-    background: blue;*/
+@media (min-width: 1200px) {
+  body{
+    /*background: blue;*/
   }
 }
 /*
@@ -320,8 +373,7 @@ nav ul li.ultimo{
   position: fixed;
   right: 10px;
   bottom: 100px;
-  -webkit-box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.7);
-          box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.7);
 }
 #float-whats img{
   height: 50px;
@@ -342,9 +394,6 @@ body{
 article#principal{
   position: relative;
 }
-article#principal img{
-    background: white url(../img/fundo.png) repeat left top;
-  }
 /*
 *********************************** Aside ***********************************
 */
@@ -375,34 +424,6 @@ footer#rodape{
   width: 100%;
   height: 346px;
   background: url(../img/contato.png) repeat-x left top;
-}
-#contato h1{
-  color: white;
-  font-family: 'RB';
-  font-size: 16px;
-}
-#contato h4{
-  color: white;
-  font-weight: bolder;
-  display: block;
-  margin-top: 30px;
-}
-#contato a{
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px;
-  border: 3px solid white;
-  border-radius: 7px;
-}
-#contato a:link,
-#contato a:visited{
-  font-weight: bolder;
-  text-decoration: none;
-  color: white;
-}
-#contato a:hover{
-  text-decoration: none;
-  background: rgba(255, 255, 255, 0.2);
 }
 /*
 *********************************** Ul ***********************************
