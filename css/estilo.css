@@ -36,19 +36,13 @@
     margin-top: 140px;
   }
   #conteudo{
-    width: 95%;
-  }
-  .img{
-    background: url(../img/lata.png) no-repeat top center;
-    z-index: -1;
     width: 100%;
-    height: 463px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 95px 17% 0 17%;
   }
   article#principal img{
+    box-sizing: border-box;
+    padding: 10%;
     width: 100%;
+    background: url(../img/fundo.png);
   }
   #conteudo article#principal h1{
     font-size: 27px;
@@ -56,6 +50,18 @@
     color: #f2d434;
     font-family: RB;
     text-align: center;
+  }
+  #videos{
+    width: 90%;
+    margin: 0 auto;
+  }
+  #videos video{
+    background: url(../img/fundo2.png);
+    box-sizing: border-box;
+    padding: 10%;
+    width: 100%;
+    margin: 40px auto;
+    display: block;
   }
 }
 @media (min-width: 576px) {
@@ -97,6 +103,18 @@
     color: #f2d434;
     font-family: RB;
     text-align: left;
+  }
+  #videos{
+    width: 90%;
+    margin: 0 auto;
+  }
+  #videos video{
+    background: url(../img/fundo2.png);
+    box-sizing: border-box;
+    padding: 10%;
+    width: 100%;
+    margin: 40px auto;
+    display: inline-block;
   }
 }
 @media (min-width: 768px) {
